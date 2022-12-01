@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"When sign up","Type invalid values","SUCCESS","2022-12-01T14:51:21.2545428+02:00[EET]","0.0","24.23"
+"When sign up","Type invalid year","SUCCESS","2022-12-01T14:51:45.8646575+02:00[EET]","0.0","8.46"
+"When sign up","Sign up with short password","SUCCESS","2022-12-01T14:51:54.6173792+02:00[EET]","0.0","9.07"
+"When sign up","Type invalid confirm email","SUCCESS","2022-12-01T14:52:04.01418+02:00[EET]","0.0","7.01"

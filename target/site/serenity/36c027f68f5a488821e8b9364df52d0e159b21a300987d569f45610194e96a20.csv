@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"When sign up test","Type invalid confirm email test","SUCCESS","2022-12-01T14:52:40.9989798+02:00[EET]","0.0","7.05"
+"When sign up test","Sign up with empty password test","SUCCESS","2022-12-01T14:52:48.299643+02:00[EET]","0.0","8.07"

@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: WhenSignUpTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 34.961 s <<< FAILURE! - in WhenSignUpTest
+WhenSignUpTest.typeInvalidYearTest  Time elapsed: 8.773 s  <<< FAILURE!
+java.lang.AssertionError: 
+[User should see message, but he doesn't] 
+Expecting value to be true but was false expected:<[tru]e> but was:<[fals]e>
+	at WhenSignUpTest.typeInvalidYearTest(WhenSignUpTest.java:27)
+
+WhenSignUpTest.typeInvalidValuesTest  Time elapsed: 8.734 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected size: 7 but was: 4 in:
+[[[ChromeDriver: chrome on WINDOWS (0a8f022ab2e08f3a82a393545820f307)] -> xpath: //div[@aria-label="Error indicator" and string-length(text())>0]|//div[@aria-label="Error indicator"]/span],
+    [[ChromeDriver: chrome on WINDOWS (0a8f022ab2e08f3a82a393545820f307)] -> xpath: //div[@aria-label="Error indicator" and string-length(text())>0]|//div[@aria-label="Error indicator"]/span],
+    [[ChromeDriver: chrome on WINDOWS (0a8f022ab2e08f3a82a393545820f307)] -> xpath: //div[@aria-label="Error indicator" and string-length(text())>0]|//div[@aria-label="Error indicator"]/span],
+    [[ChromeDriver: chrome on WINDOWS (0a8f022ab2e08f3a82a393545820f307)] -> xpath: //div[@aria-label="Error indicator" and string-length(text())>0]|//div[@aria-label="Error indicator"]/span]]
+	at WhenSignUpTest.typeInvalidValuesTest(WhenSignUpTest.java:66)
+
